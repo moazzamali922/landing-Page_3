@@ -1,0 +1,497 @@
+hr.black-bold-hr {
+  border: 0;
+  height: 2px;
+  background-color: #00000093;
+}
+
+.green-check {
+  color: rgba(126, 211, 33, 1);
+}
+
+
+
+.full-width-background {
+  /* width: 100%; */
+  background: linear-gradient(rgb(255, 255, 255), rgb(216, 233, 222));
+}
+
+.full-width-background1 {
+  /* width: 100%; */
+  background-color: white;
+}
+
+.content-container {
+  padding: 40px;
+}
+
+.img-fluid {
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.extra-bold {
+  font-weight: 800;
+  /* Bold font weight */
+}
+
+.FontSize {
+  font-size: 2rem;
+  line-height: 1;
+  color: rgb(112, 123, 142);
+}
+
+.fontSize1 {
+  font-size: 1.3rem;
+  color: rgb(112, 123, 142);
+}
+
+.lifetimeHosting {
+  font-size: 3rem;
+  color: rgb(39, 60, 99);
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+.PayOnce {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+/* Card One 1 Start */
+
+.plan-card1 {
+  border: 2px solid rgb(124, 190, 30);
+  border-radius: 5px;
+  /* width: 350px; */
+  margin: auto;
+  margin-top: 20px;
+}
+
+.plan-header1 {
+  background-color: rgb(124, 190, 30);
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.plan-body1 {
+  padding: 20px;
+}
+
+.plan-price1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-price-now1 {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+}
+
+.plan-price-was1 {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.plan-price-Year1 {
+  color: rgb(112, 123, 142);
+  font-size: 18px;
+}
+
+.plan-features1 {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-features1 i {
+  color: #fff;
+  ;
+  margin-right: 10px;
+  background-color: rgba(126, 211, 33, 1);
+  padding: 1px;
+}
+
+.plan-features1 li {
+  padding: 5px 0;
+}
+
+/* Card One 1 End  */
+
+
+/* Card 2 Start  */
+
+.plan-card2 {
+  border: 2px solid rgb(74, 144, 226);
+  border-radius: 5px;
+  /* width: 350px; */
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+.plan-header2 {
+  background-color: rgb(74, 144, 226);
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.plan-body2 {
+  padding: 20px;
+}
+
+.plan-price2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-price-now2 {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+}
+
+.plan-price-was2 {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.plan-price-Year2 {
+  color: rgb(112, 123, 142);
+  font-size: 18px;
+}
+
+.plan-features2 {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-features2 li {
+  padding: 5px 0;
+}
+
+.plan-features2 i {
+  color: #fff;
+  ;
+  margin-right: 10px;
+  background-color: rgba(126, 211, 33, 1);
+  padding: 1px;
+}
+
+/* Card 2 End  */
+
+
+
+/* Card 3 Start  */
+
+
+.plan-card3 {
+  border: 2px solid rgb(245, 166, 35);
+  border-radius: 5px;
+  /* width: 350px; */
+  margin: auto;
+  margin-top: 20px;
+}
+
+.plan-header3 {
+  background-color: rgb(245, 166, 35);
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.plan-body3 {
+  padding: 20px;
+}
+
+.plan-price3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plan-price-now3 {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+}
+
+.plan-price-was3 {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.plan-price-Year3 {
+  color: rgb(112, 123, 142);
+  font-size: 18px;
+}
+
+.plan-features3 {
+  list-style: none;
+  padding: 0;
+}
+
+.plan-features3 i {
+  color: #fff;
+  ;
+  margin-right: 10px;
+  background-color: rgba(126, 211, 33, 1);
+  padding: 1px;
+}
+
+
+.plan-features3 li {
+  padding: 5px 0;
+}
+
+
+/* Card 3 End  */
+
+
+
+@media (max-width: 768px) {
+  .img-fluid {
+    margin-left: 0;
+  }
+}
+
+/* Google Capterra Trustpilot Card  */
+
+.card-custom {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+.card-custom:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fa-star.checked {
+  color: rgba(7, 28, 221, 0.932);
+}
+
+.TopTextGoogle {
+  color: rgb(39, 60, 99);
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.GoogleFont {
+  color: rgba(112, 123, 142, 1);
+  font-weight: 600;
+  font-style: normal;
+  line-height: 8px;
+  font-size: 22px;
+}
+
+.SmallFont {
+  font-size: 12px;
+}
+
+
+
+.buttonUperText {
+  color: rgb(112, 123, 142);
+  font-size: 20px;
+
+}
+
+.ButtonContact {
+  background-color: #008000;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.Gaping {
+  gap: 40px;
+}
+
+
+@media (max-width: 768px) {
+  .Button-container {
+    margin-left: 0;
+  }
+}
+
+
+/* Form Styling */
+
+
+.form-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #0000001a;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.order-button {
+  /* width: 100%; */
+  padding: 8px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.payment-option {
+  margin-bottom: 10px;
+  border: 1px solid rgb(221, 215, 215);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.terms {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.whatsapp-link {
+  text-decoration: none;
+  color: #25D366;
+}
+
+.PlaceOrderButton {
+  background-color: rgb(82, 104, 242);
+  color: #fff;
+}
+
+.DisclaimersContainer {
+  width: 80%;
+  margin-left: 30px;
+}
+
+
+
+.DisclaimersContainer>ul>li {
+  color: rgb(112, 123, 142);
+  font-size: 15px;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.background {
+  background: url('https://d1yei2z3i6k35z.cloudfront.net/3411656/65676b5d97ddc_bf-bg.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+}
+
+.white-text1 {
+  color: rgba(221, 221, 221, 1);
+  font-size: 28px;
+}
+
+.white-text2 {
+  font-size: 34px;
+  color: #fff;
+}
+
+.white-text {
+  color: #fff;
+  /* or any other color you prefer */
+}
+
+.accordion-item {
+  background-color: rgb(238, 238, 238);
+}
+
+.ButtonAccrodian {
+  color: #000;
+  font-size: 20px;
+  background-color: rgb(238, 238, 238);
+}
+
+/* Footer  */
+
+
+.Footer-large {
+  display: none;
+  background-color: rgb(25, 30, 42);
+}
+
+.Footer-small {
+  display: block;
+  background-color: rgb(25, 30, 42);
+
+}
+
+
+@media (min-width: 550px) { 
+  .Footer-large {
+      display: block;
+  }
+
+  .Footer-small {
+      display: none;
+  }
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  color: #FFF; 
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #FFF; 
+}
+
+
+.timer-container {
+ 
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  text-align: center;
+  color: red;
+}
+.deal_expire{
+  color: rgba(208, 2, 27, 1);
+  font-size: 20px;
+}
+
+.days_hours_etc {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: rgb(155, 155, 155);
+}
+
+.timer h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.countdown {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
